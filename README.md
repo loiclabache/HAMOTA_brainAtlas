@@ -17,9 +17,9 @@ In the line of the
 [SENSAAS](https://github.com/loiclabache/SENSAAS_brainAtlas) and
 [WMCA](https://github.com/loiclabache/WMCA_brainAtlas) atlases that are
 atlases that have bee proposed to the community on the networks
-dedicated to sentence and word-list processing, the 13 regions that have
-been selected and described in the present work are available as an
-atlas.
+dedicated to sentence and word-list processing, the 13 hands regions
+that have been selected and described in the present work are available
+as an atlas.
 
 **HAMOTA, HAnd MOtor Area atlas, is a brain atlas aimed to investigate
 the anatomo-functional support of *handedness* (manual preference).**
