@@ -13,22 +13,29 @@ healthy adults balanced for handedness. Laterality, 26(4), 398-420. DOI:
 
 ## Background
 
-**WMCA, Word-List Multimodal Cortical Atlas, is a new model of the
-neural organization of phonological action–perception circuits.**
+In the line of the
+[SENSAAS](https://github.com/loiclabache/SENSAAS_brainAtlas) and
+[WMCA](https://github.com/loiclabache/WMCA_brainAtlas) atlases that are
+atlases that have bee proposed to the community on the networks
+dedicated to sentence and word-list processing, the 13 regions that have
+been selected and described in the present work are available as an
+atlas.
 
-We aimed at identifying plurimodal large-scale networks common to
-producing, listening to and reading word lists based on the combined
-analyses of task-induced activation and resting-state intrinsic
-connectivity.
+**HAMOTA, HAnd MOtor Area atlas, is a brain atlas aimed to investigate
+the anatomo-functional support of *handedness* (manual preference).**
 
-14 left regions and 7 right were identified as showing joint activation
-and joint asymmetry during the three tasks of producing, listening to
-and reading word lists. The temporal correlations at rest between these
-21 regions made it possible to detect their belonging to 2 networks.
-**Among these networks, one, *WORD-LIST_CORE* network that aggregated 14
-motor, premotor and phonemic areas in the left hemisphere plus the right
-Superior Temporal Sulcus that corresponded to the posterior human voice
-area.**
+To complete this investigation, a sample of 287 individuals have been
+analyzed (balanced for handedness and sex). Each participant completed
+both a Right Finger Tapping task (RFT) and a Left Finger Tapping task
+(LFT). In order to identify areas whose activity was dependent on the
+moving hand, we selected the cortical and the subcortical regions
+showing activation and asymmetry favoring the hemisphere contralateral
+to the moving hand during both the LFT and RFT, in right- and
+left-handers. The cerebellar regions showed ipsilateral activation and
+asymmetry, during both the LFT and RFT, also have been included. **13
+regions were selected, including the primary and secondary sensorimotor,
+and premotor cortices, thalamus, dorsal putamen and cerebellar lobule
+IV. **
 
 <p align="center">
 <img src="readme_files/HAMOTA_volume.gif" width="50%" height="50%" />
@@ -40,66 +47,68 @@ area.**
 
 The `Atlas` folder contains 4 files:
 
--   `read_me_WMCA.rtf`: README file containing information about the
+-   `read_me_HAMOTA.rtf`: README file containing information about the
     atlas
--   `WMCA_MNI_ICBM_152_2mm.nii`: NIfTI file containing the 21 brain
+-   `HAMOTA_MNI_ICBM_152_2mm.nii.gz`: NIfTI file containing the 13 brain
     regions in the MNI space
 
 <p align="center">
 <img src="readme_files/HAMOTA.png" width="80%" height="80%" />
 </p>
 
--   `WMCA_description.csv`: CSV file containing a full description of
+-   `HAMOTA_description.csv`: CSV file containing a full description of
     each areas. The first column (*Index*) correspond to the index of
     each region that is used in the NIfTI file. The second column
-    (*ROI*) is the anatomical labels of each regions. The column
-    *Network* corresponded to which of the 2 networks a region belongs.
-    Finaly, the MNI coordinate (columns *Xmm*, *Ymm*, *Zmm*) of each
-    regions centroid is provided.
+    (*ROI*) is the anatomical labels of each regions. Finaly, the MNI
+    coordinate (columns *Xmm*, *Ymm*, *Zmm*) of each regions centroid is
+    provided.
 
 -   `template_ANTs_80tvs_on_MNI.nii.gz`: brain template used to align
     the atlas on, provided in MNI stereotaxic space (MNI ICBM 152,
     Template sampling size of 2x2x2 mm3 voxels; bounding box, x = -90 to
     90 mm, y = -126 to 91 mm, z = -72 to 109 mm)
 
-The 2 networks are briefly described below.
-
--   **WORD-LIST_CORE** included 13 regions hosting motor and premotor
-    areas of the left hemisphere.This network is also an
-    **inter-hemispheric network** since it comprises the right superior
-    temporal sulcus (*STS3*). **WORD-LIST_CORE corresponds to the
-    essential phonological processing regions.**
-
--   **WORD-LIST_CONTROL** aggregated 7 areas acknowledged as involved in
-    the monitoring aspect of the tasks that were common to the three
-    tasks.
-
-This above model posits that:
-
--   action and perception circuits are interdependent and organized in
-    networks, among which a trace of the learning modality is still
-    present in the brain;
-
--   the involvement of phonological action–perception circuits, such as
-    the phonological working memory loop, in which articulatory gestures
-    are the central motor units on which word perception, production and
-    reading develop and act according to the motor theory of speech
-    ([Liberman and Whalen
-    2000](https://doi.org/10.1016/S1364-6613(00)01471-6)), as revealed
-    by the recruitment of leftward frontal and precentral areas together
-    with temporo-parietal areas;
-
--   the involvement of the left supramarginal (*SMG*) with the right
-    superior temporal sulcus (*STS3*, pHVA), which is a prosodic
-    integrative area, could reflect the intertwining between prosodic
-    and phonemic information.
+Location of the 13 regions showed in the left hemisphere. (A) Comparison
+with the map of the main effect of all finger-tapping tasks in the
+meta-analysis conducted by [Witt et al,
+2008](https://doi.org/10.1016/j.neuroimage.2008.04.025). The ALE maps
+are shown side to side with the regions of the present atlas that are
+labelled on axial slices of the left hemisphere and right cerebellum (B)
+Comparison with the regions involved in the motor network for hand
+movements as explored with intrinsic connectivity by [Newbold and
+colleagues](https://doi.org/10.1016/j.neuron.2020.05.007) together with
+lateral left hemisphere presentation of the 13 areas of the present
+work.
 
 <p align="center">
 <img src="readme_files/metaAnalysis.png" width="80%" height="80%" />
 </p>
 
-Regional variations in activation in **HAMOTA explained 81% of the
-distribution of manual preference**.
+Importantly, **the neural support of handedness is complex and does not
+rely on a mirrored organization of the activity in contralateral motor
+cortices associated with preferred hand movement between rigt-handers
+and left-handers.**
+
+The `Data` folder contains 2 files:
+
+-   `readMe_data_HAMOTA.csv`: this dataset has been generated from a
+    subsample of 287 participants (143 left-handers) from the [BIL&GIN
+    database](https://doi.org/10.1016/j.neuroimage.2015.02.071). The
+    dataset contains age, sex, self-reported manual preference
+    (handedness) and Edinburgh score, for each participant. It also
+    includes measures of frequencies (in Hz) when particpants performed
+    self-paced right and left finger tapping tasks during an fMRI
+    experiment. fMRI task-induced BOLD-signal variations and left minus
+    asymmetry during right and left FTT have been computed in the
+    regions of the [AICHA
+    atlas](https://doi.org/10.1016/j.jneumeth.2015.07.013). The dataset
+    contains BOLD signal variations in the 13 pairs of regions during
+    left and right FTT, as well as several contrast between these BOLD
+    variations (asymmetries, difference between dominant and minor hand,
+    differences between LFT and RFT).
+
+-   `Data_HAMOTA_TzourioMazoyer2021.csv`: full description of each
+    columns of the data file (`readMe_data_HAMOTA.csv`).
 
 ------------------------------------------------------------------------
 
