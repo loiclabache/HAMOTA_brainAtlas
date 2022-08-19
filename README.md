@@ -35,7 +35,7 @@ left-handers. The cerebellar regions showed ipsilateral activation and
 asymmetry, during both the LFT and RFT, also have been included. **13
 regions were selected, including the primary and secondary sensorimotor,
 and premotor cortices, thalamus, dorsal putamen and cerebellar lobule
-IV. **
+IV.**
 
 <p align="center">
 <img src="readme_files/HAMOTA_volume.gif" width="50%" height="50%" />
