@@ -91,8 +91,9 @@ and left-handers.**
 
 The `Data` folder contains 2 files:
 
--   `readMe_data_HAMOTA.csv`: this dataset has been generated from a
-    subsample of 287 participants (143 left-handers) from the [BIL&GIN
+-   `Data_HAMOTA_TzourioMazoyer2021.csv`: this dataset has been
+    generated from a subsample of 287 participants (143 left-handers)
+    from the [BIL&GIN
     database](https://doi.org/10.1016/j.neuroimage.2015.02.071). The
     dataset contains age, sex, self-reported manual preference
     (handedness) and Edinburgh score, for each participant. It also
@@ -107,8 +108,8 @@ The `Data` folder contains 2 files:
     variations (asymmetries, difference between dominant and minor hand,
     differences between LFT and RFT).
 
--   `Data_HAMOTA_TzourioMazoyer2021.csv`: full description of each
-    columns of the data file (`readMe_data_HAMOTA.csv`).
+-   `readMe_data_HAMOTA.csv`: full description of each columns of the
+    above dataset.
 
 ------------------------------------------------------------------------
 
