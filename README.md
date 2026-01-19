@@ -47,26 +47,25 @@ IV.**
 
 The `Atlas` folder contains 4 files:
 
--   `read_me_HAMOTA.rtf`: README file containing information about the
-    atlas
--   `HAMOTA_MNI_ICBM_152_2mm.nii.gz`: NIfTI file containing the 13 brain
-    regions in the MNI space
+- `read_me_HAMOTA.rtf`: README file containing information about the
+  atlas
+- `HAMOTA_MNI_ICBM_152_2mm.nii.gz`: NIfTI file containing the 13 brain
+  regions in the MNI space
 
 <p align="center">
 <img src="readme_files/HAMOTA.png" width="80%" height="80%" />
 </p>
 
--   `HAMOTA_description.csv`: CSV file containing a full description of
-    each areas. The first column (*Index*) correspond to the index of
-    each region that is used in the NIfTI file. The second column
-    (*ROI*) is the anatomical labels of each regions. Finaly, the MNI
-    coordinate (columns *Xmm*, *Ymm*, *Zmm*) of each regions centroid is
-    provided.
+- `HAMOTA_description.csv`: CSV file containing a full description of
+  each areas. The first column (*Index*) correspond to the index of each
+  region that is used in the NIfTI file. The second column (*ROI*) is
+  the anatomical labels of each regions. Finaly, the MNI coordinate
+  (columns *Xmm*, *Ymm*, *Zmm*) of each regions centroid is provided.
 
--   `template_ANTs_80tvs_on_MNI.nii.gz`: brain template used to align
-    the atlas on, provided in MNI stereotaxic space (MNI ICBM 152,
-    Template sampling size of 2x2x2 mm3 voxels; bounding box, x = -90 to
-    90 mm, y = -126 to 91 mm, z = -72 to 109 mm)
+- `template_ANTs_80tvs_on_MNI.nii.gz`: brain template used to align the
+  atlas on, provided in MNI stereotaxic space (MNI ICBM 152, Template
+  sampling size of 2x2x2 mm3 voxels; bounding box, x = -90 to 90 mm, y =
+  -126 to 91 mm, z = -72 to 109 mm)
 
 Location of the 13 regions showed in the left hemisphere. (A) Comparison
 with the map of the main effect of all finger-tapping tasks in the
@@ -91,42 +90,39 @@ and left-handers.**
 
 The `Data` folder contains 2 files:
 
--   `Data_HAMOTA_TzourioMazoyer2021.csv`: this dataset has been
-    generated from a subsample of 287 participants (143 left-handers)
-    from the [BIL&GIN
-    database](https://doi.org/10.1016/j.neuroimage.2015.02.071). The
-    dataset contains age, sex, self-reported manual preference
-    (handedness) and Edinburgh score, for each participant. It also
-    includes measures of frequencies (in Hz) when particpants performed
-    self-paced right and left finger tapping tasks during an fMRI
-    experiment. fMRI task-induced BOLD-signal variations and left minus
-    asymmetry during right and left FTT have been computed in the
-    regions of the [AICHA
-    atlas](https://doi.org/10.1016/j.jneumeth.2015.07.013). The dataset
-    contains BOLD signal variations in the 13 pairs of regions during
-    left and right FTT, as well as several contrast between these BOLD
-    variations (asymmetries, difference between dominant and minor hand,
-    differences between LFT and RFT).
+- `Data_HAMOTA_TzourioMazoyer2021.csv`: this dataset has been generated
+  from a subsample of 287 participants (143 left-handers) from the
+  [BIL&GIN database](https://doi.org/10.1016/j.neuroimage.2015.02.071).
+  The dataset contains age, sex, self-reported manual preference
+  (handedness) and Edinburgh score, for each participant. It also
+  includes measures of frequencies (in Hz) when particpants performed
+  self-paced right and left finger tapping tasks during an fMRI
+  experiment. fMRI task-induced BOLD-signal variations and left minus
+  asymmetry during right and left FTT have been computed in the regions
+  of the [AICHA atlas](https://doi.org/10.1016/j.jneumeth.2015.07.013).
+  The dataset contains BOLD signal variations in the 13 pairs of regions
+  during left and right FTT, as well as several contrast between these
+  BOLD variations (asymmetries, difference between dominant and minor
+  hand, differences between LFT and RFT).
 
--   `readMe_data_HAMOTA.csv`: full description of each columns of the
-    above dataset.
+- `readMe_data_HAMOTA.csv`: full description of each columns of the
+  above dataset.
 
 ------------------------------------------------------------------------
 
 ## Other atlases that might interest you
 
--   SEntence Supramodal Areas AtlaS:
-    [SENSAAS](https://github.com/loiclabache/SENSAAS_brainAtlas)
--   Word-list Multimodal Cortical Atlas:
-    [WMCA](https://github.com/loiclabache/WMCA_brainAtlas)
--   Atlas of Lateralized visuospatial Attentional Networks:
-    [ALANs](https://github.com/loiclabache/ALANs_brainAtlas)
--   Atlas of Intrinsic Connectivity of Homotopic Areas:
-    [AICHA](https://www.gin.cnrs.fr/en/tools/aicha/)
+- SEntence Supramodal Areas AtlaS:
+  [SENSAAS](https://github.com/loiclabache/SENSAAS_brainAtlas)
+- Word-list Multimodal Cortical Atlas:
+  [WMCA](https://github.com/loiclabache/WMCA_brainAtlas)
+- Atlas of Lateralized visuospatial Attentional Networks:
+  [ALANs](https://github.com/loiclabache/ALANs_brainAtlas)
+- Atlas of Intrinsic Connectivity of Homotopic Areas:
+  [AICHA](https://www.gin.cnrs.fr/en/tools/aicha/)
 
 ------------------------------------------------------------------------
 
 ## Questions
 
-Please contact me (Loïc Labache) as <loic.labache@yale.edu> and/or
-<loic.labache@ensc.fr>
+Please contact me (Loïc Labache) as <loic.labache@rutgers.edu>
